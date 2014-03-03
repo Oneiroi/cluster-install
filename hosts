@@ -1,7 +1,7 @@
 [galera_cluster]
-172.17.0.130
-172.17.0.131
-172.17.0.132
+node1 ansible_ssh_host=172.17.0.130
+node2 ansible_ssh_host=172.17.0.131
+node3 ansible_ssh_host=172.17.0.132
 
 [haproxy]
-172.17.0.125
+haproxy ansible_ssh_host=172.17.0.125
